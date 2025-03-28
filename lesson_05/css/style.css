@@ -1,0 +1,160 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+main{
+    background-color: #231F8B;
+    width: 100%;
+}
+.wrapper{
+    max-width: 1050px;
+    padding: 112px 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.business {
+    font-family: "Montserrat", sans-serif;
+}
+.business-row {
+    max-width: 100%;
+    margin: 0 0 70px 0;
+    font-size: 0;
+}
+
+.text{
+    color: #fff;
+}
+.business-subtitle {
+        
+    color: #5A54F2;
+    font-size: 14px;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.2px;
+    
+}
+.business-title {
+    font-family: "CircularStd", sans-serif;
+    font-size: 36px;
+}
+.business-title-style{
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+.business-paragraph {
+    font-family: "CircularStd", sans-serif;
+    max-width: 765px;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+}
+.business-cards {
+}
+.cards-row {
+    font-size: 0;
+}
+.card-style{
+    vertical-align: top;
+    display: inline-block;
+    max-width: 230px;
+    background-color: #fff;
+    padding: 35px 40px;
+
+}
+.card-style img{
+    max-width: 72px;
+    max-height: 72px;
+    margin: 0 0 20px 0;
+}
+.card-style h2{
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    color: #252B42;
+    font-weight: 700;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.1px;
+    margin: 0 0 20px 0;
+}
+.card-style div{
+    max-width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    margin: 0 0 20px 0;
+}
+.card-style p{
+    color: #737373;
+    line-height: 1.42; /* 142.857% */
+    letter-spacing: 0.2px;
+    font-size: 14px;
+}
+.card-risk{
+    margin: 0 38px 0 0;
+}
+.image{
+    
+}
+.card-title{
+    
+}
+.card-line{
+    
+}
+.card-text{
+    
+}
+.training{
+}
+.card-compliance{
+    margin: 48px 38px 0 0;
+}
+.card-sox{
+    background-color: #5A54F2;
+    margin: 0 38px 0 0;
+}
+.card-sox h2{
+    color: #fff;
+}
+.card-sox p{
+    color: #fff;
+}
+.card-sox div{
+    background-color: #fff;
+}
+.card-audit{
+    margin: 48px 0 0 0;
+}
+
+.training {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px 15px 15px;
+    background-color: #252B42;
+    color: #737373;
+    overflow: hidden;
+}
+
+.training-title {
+    margin-bottom: 15px;
+    margin: 15px auto;
+    max-width: 150px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #674242;
+    
+    
+
+}
+.training-text {
+    display: block;
+    max-width: 400px;
+    height: 100px;
+    overflow: auto;
+    color: #674242;
+    line-height: 18px;
+}
+.footer-title{
+    text-align: center;
+    line-height: 50px;
+
+}
