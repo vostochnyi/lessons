@@ -1,0 +1,177 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    
+}
+.products-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color:#808080;
+    max-width: 648px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 15px;
+}
+.products-conteiner {
+    
+}
+
+.products-primary-text {
+    
+}
+
+.text{
+    line-height: 1.5;
+}
+.products-primary-text p{
+    margin: 0 0 25px 0;
+}
+.primary-paragraph1 {
+}
+.primary-paragraph2 {
+}
+.products-list {
+    margin: 0 0 20px 0;
+}
+.products-list-list {
+    
+}
+.products-list-list li{
+    line-height: 1.4;
+    margin: 0 0 14px 0;
+    padding: 0 0 0 28px;
+    background: url("../img/check1.svg") no-repeat 3px center, url("../img/rectangle7.png") no-repeat 0 center / 19px;
+    
+}
+.products-secondary-text {
+    overflow: hidden;
+    
+}
+.products-secondary-text p{
+    margin: 0 0 90px 0;
+}
+.secondary-paragraph1 {
+    
+}
+footer{
+    text-align: center;
+}
+
+.hydra-vr {
+    max-width: 100%;
+    background: url("../img/vector7.svg") no-repeat center 90px, url("../img/vector8.svg") no-repeat center 367px,  #302C42;
+    overflow: hidden;
+}
+.hydra-container {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    max-width: 1282px;
+    margin: 80px auto;
+    padding: 0 15px;
+}
+
+.hydra-main{
+    margin: 0 0 90px 0;
+}
+
+.hydra-image{
+    max-width: 522px;
+    max-height: 551px;
+    margin: 0 90px 0 0;
+    border-radius: 230px 100px;
+    vertical-align: top;
+    
+}
+.hydra-text {
+    
+    display: inline-block;
+    max-width: 630px;
+    margin: 54px 0 0 0;
+    overflow: hidden;
+}
+.hydra-title {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0px 0 42px 0;
+    text-transform: uppercase;
+}
+.hydra-title span{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+}
+.hydra-title strong{
+    font-weight: 300;
+}
+.hydra-paragraph {
+    
+    line-height: 1.6;
+    margin: 0 0 28px 0;
+}
+.hydra-button {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #343045;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 17px 39px;
+}
+
+.hydra-contacts {
+    overflow: hidden;
+}
+.contacts-items {
+    background: radial-gradient(50.96% 110.13% at 50% 53.89%, #3a3456f2 0%, #211E2E 100%);
+    border-radius: 90px;
+}
+.contacts-item {
+    padding: 49px 39px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+
+}
+.contacts-item1{
+    width: 435px;
+    background: url("../img/vertical5.svg") no-repeat right center / 3px 110px;
+}
+.contacts-item2{
+    width: 373px;
+    background: url("../img/vertical5.svg") no-repeat right center / 3px 110px;
+}
+.contacts-item3{
+    width: 435px;
+}
+.content{
+    min-height: 65px;
+    padding: 0px 0 0px 65px;
+    overflow: hidden;
+}
+.content h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.content a{
+    font-size: 14px;
+}
+.item-content1 {
+    background: url("../img/location-icon.svg") no-repeat -11px -5px / 65px;
+    
+}
+.item-content2 {
+    background: url("../img/phone-call.svg") no-repeat -5px -5px / 65px ;
+    
+}
+.item-content3 {
+    background: url("../img/mail.svg") no-repeat -5px -9px / 65px ;
+    
+}
