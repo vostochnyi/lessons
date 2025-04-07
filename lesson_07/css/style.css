@@ -1,0 +1,288 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body{
+    font-family: "Inter", sans-serif;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+.wrapper{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.professional-faculty {
+    background-color: #412672;
+    
+}
+.professional-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 61px 5px 102px 5px;
+    color: #fff;
+    overflow: hidden;
+    
+}
+.professional-body h2{
+    font-size: 38px;
+    line-height: 1.21;
+    margin: 0 0 31px 0;
+}
+
+.professional-body strong{
+    font-weight: 700;
+}
+
+.professional-cards {
+    margin: 0 -10px 0 -10px;
+    font-size: 0;
+    
+}
+.professional-card {
+    display: inline-block;
+    width: 33.333%;
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.professional-card-body {
+    background-color: #fff;
+    color: #4F4F4F;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.professional-card-body:hover{
+    background: #FFBE48;
+}
+.professional-card-body img{
+    width: 347px; 
+    height: 266px;
+}
+.professional-card-body h3{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+
+}
+.professional-card-body p{
+    font-size: 15px;
+    color: #4F4F4F;
+    line-height: 1.26;
+}
+
+.professional-card-body a{
+    font-size: 15px;
+    color: #FE3F3F;
+    line-height: 1.26;
+}
+
+
+.professional-card-body a:hover{
+    text-decoration: underline;
+}
+.professional-card-body a:active{
+    color: #fa1515;
+    font-weight: 700;
+}
+
+
+.professional-card-body :not(:last-child){
+    margin: 0 0 16px 0;
+}
+
+.available-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.available-text {
+    max-width: 518px;
+    padding: 0px 5px;
+    color: #412672;
+}
+
+
+.available-text h2{
+    
+    font-size: 34px;
+    line-height: 1.2;
+}
+.available-text strong{
+    font-weight: 700;
+}
+.available-text p{
+    font-size: 22px;
+    line-height: 1.22;
+}
+
+
+.available-text li::before{
+    content: url("../img/chek.svg");
+    width: 29px;
+    height: 29px;
+    margin: -5px 11px 0 -41px ;
+    vertical-align: middle;
+}
+.available-text li{
+    color: #4F4F4F;
+    font-size: 20px;
+    line-height: 1.55;
+    padding: 0 0 0 41px;
+}
+.available-text {
+    
+}
+
+.available-text :not(:last-child){
+    margin: 0 0 20px 0;
+}
+
+
+.game {
+    background-color: #a5a5a5;
+}
+.game-body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px 5px;
+    overflow: hidden;
+}
+.game-title {
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #af7f25;
+    font-size: 25px;
+}
+.game-title::before{
+    content: "☟";
+    margin-right: 13px;
+}
+.game-title::after{
+    content: "☟";
+    margin-left: 13px;
+}
+.game-field {
+    background-color: #4F4F4F;
+    overflow: hidden;
+    
+}
+
+.game-part {
+    background-color: #412672c1;
+    color: #fff;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.game-part:not(:first-child){
+    visibility: hidden;
+}
+
+
+.game-part:hover + .game-part, .game-part:hover {
+    visibility: visible;
+}
+
+
+.game-part1 {
+    text-align: center;
+    width: 150px;
+    line-height: 50px;
+    
+}
+
+
+.game-part2 {
+    margin-left: 110px;
+    width: 40px;
+    height: 100px;
+    
+}
+
+
+.game-part3 {
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 150px;
+    
+}
+.game-part4{
+    margin-left: 350px;
+    margin-top: -25px;
+    width: 200px;
+    height: 25px;
+}
+.game-part5{
+    margin-left: 500px;
+    width: 50px;
+    height: 25px;
+}
+.game-part6{
+    margin-left: 300px;
+    width: 250px;
+    height: 40px;
+}
+.game-part7{
+    margin-left: 100px;
+    width: 220px;
+    height: 25px;
+}
+.game-part8{
+    margin-left: 190px;
+    width: 40px;
+    height: 80px;
+}
+.game-part9{
+    margin-left: 230px;
+    margin-top: -45px;
+    width: 200px;
+    height: 45px;
+}
+.game-part10{
+    margin-left: 430px;
+    margin-top: -45px;
+    width: 30px;
+    height: 155px;
+}
+.game-part11{
+    margin-left: 430px;
+    width: 332px;
+    height: 25px;
+}
+.game-part12{
+    margin-left: 762px;
+    margin-top: -40px;
+    display: inline-block;
+    padding: 10px;
+
+}
+.game-part p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.game-part12 a{
+    padding: 5px;
+}
+
+.game-part12 a:hover{
+    color: #af7f25;
+    text-decoration: underline;
+    background-color: #a5a5a5;
+    
+}
