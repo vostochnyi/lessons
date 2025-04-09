@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/folder-svgrepo-com.svg" sizes="32*32" type="image/x-icon">
+    <title>Lesson_8</title>
+</head>
+
+<body>
+    <header>
+        <p>
+            графіка
+        </p>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="homework-container">
+                <div class="homework-content">
+                    <h1>Типи графіки</h1>
+                    <div class="icons block">
+                        <h2 class="title">
+                            іконки
+                        </h2>
+                        <p>
+                            Іконки — використовуються для підкреслення тексту та декорування кнопок.
+                            В більшості випадків використовуються векторні зображення, можуть інтегруватись як тегом
+                            `img`, так і за допомогою фону.
+                        </p>
+                        <p>
+                            Вони допомагають краще та легше знайти щось на сторінці, приклад: іконка log in, іконки
+                            списку, іконка перемикача тощо.
+                        </p>
+                        <p class="icon-example">
+                            Приклад векторних іконок .svg :
+                        </p>
+                        <div class="svg-images">
+                            <img src="img/vector.svg" alt="логотип Фейсбук">
+                            <img src="img/vector3.svg" alt="логотип Інстаграм">
+                            <img src="img/vector2.svg" alt="логотип Ютуб">
+                            <img src="img/vector1.svg" alt="старий логотип Твіттер">
+                            <img src="img/ic_baseline-place.svg" alt="іконка положення на карті">
+                            <img src="img/fluent_mail-20-filled.svg" alt="іконка з зображенням листа">
+                            <img src="img/carbon_phone-filled.svg" alt="іконка з зображенням телефонної слухавки">
+                        </div>
+                    </div>
+                    <div class="svg-content block">
+                        <h2 class="title">
+                            SVG Контент
+                        </h2>
+                        <p class="svg-content-example">
+                            Приклад .svg контентної графіки :
+                        </p>
+                        <div class="svg-images">
+                            <img src="img/group.svg" alt="група людей">
+                            <img src="img/mount.svg" alt="гори">
+                            <img src="img/vector-line.svg" alt="зростаючтй графік">
+                            <img src="img/text-03.svg" alt="логотип бренду">
+                            <img src="img/text-05.svg" alt="логотип бренду">
+                        </div>
+                    </div>
+                    <div class="image block">
+                        <h2 class="title">
+                            растрові зображення
+                        </h2>
+                        <p>
+                            Растрова графіка складається з пікселів, напівтонів, багатьох кольорів, як мозаїка.
+                            При збільшені масштабу погіршується якість, бо такі зображення мають певну щільність
+                            пікселів.
+                        </p>
+                        <p>
+                            Растрова графіка має такі формати зображень як : jpg , png , webp , avif.
+                        </p>
+                        <h3 class="subtitle title">
+                            Растрове зображення 1x формату .jpg
+                        </h3>
+                        <img src="img/mount_1x.jpg" alt="один чоловік дивиться на гори з висоти">
+                        <h3 class="subtitle title">
+                            Растрове зображення 1x формату .webp
+                        </h3>
+                        <img src="img/mount_1x.webp" alt="один чоловік дивиться на гори з висоти">
+                        <h3 class="subtitle title">
+                            Растрове зображення 1x формату .avif
+                        </h3>
+                        <img src="img/mount_1x.avif" alt="один чоловік дивиться на гори з висоти">
+                    </div>
+                    <div class="construction block">
+                        <h2 class="title">
+                            конструкція для виводу підходящого зображення
+                        </h2>
+                        <p>
+                            Конструкція з використанням тегу "picture" де,за допомогою,вкладених в нього тегів "source"
+                            та "img" в браузер виводиться найбільш підходяще зображення за розміром з урахуванням
+                            параметрів
+                            монітору для оптимізації роботи сайту.
+                        </p>
+                        <picture>
+                            <source srcset="img/mount_2x.webp 2x, img/mount_3x.webp 3x">
+                            <img src="img/mount_1x.webp" alt="один чоловік дивиться на гори з висоти">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Всі права захищєні так собі
+        </p>
+    </footer>
+</body>
+
+</html>

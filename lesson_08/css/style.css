@@ -1,0 +1,120 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.wrapper{
+    max-width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+header, footer{
+    background-color: #545454;
+    text-align: center;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.homework-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.homework-content{
+    font-size: 18px;
+    padding: 15px;
+    border: 3px solid #545454;
+    overflow: hidden;
+}
+.homework-content h1{
+    text-align: center;
+    font-size: 25px;
+    color: burlywood;
+    margin: 0 0 10px 0;
+    padding: 0 15px;
+}
+.homework-content :not(:last-child){
+    margin: 0 0 15px 0;
+}
+.icons {
+}
+.title {
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    color: burlywood;
+}
+
+.icon-example{
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+
+.block :not(:last-child){
+    margin-bottom: 5px;
+}
+.block{
+    padding: 5px;
+    border: 2px dashed #545454;
+    overflow: hidden;
+}
+.svg-images{
+    display: inline-block;
+    font-size: 0;
+}
+.svg-images img{
+    margin-bottom: 5px;
+}
+
+
+.svg-content-example{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.icons img,
+.svg-content img{
+    width: 50px;
+    height: 50px;
+    padding: 5px 5px 0 5px;
+}
+.icons img:hover{
+    padding: 0px;
+}
+.svg-content img:hover{
+    padding: 0px;
+}
+
+
+
+.subtitle{
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+.subtitle::before{
+    content: "ˬ";
+    margin: 0 10px 0 0;
+    
+}
+.subtitle::after{
+    content: "ˬ";
+    margin: 0 0 0 10px;
+}
+
+.image img{
+    max-height: 500px;
+    padding: 5px;
+    
+}
+.image img:hover{
+    padding: 0;
+}
+.image img:not(:last-child){
+    margin-bottom: 15px;
+}
+
