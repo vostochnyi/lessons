@@ -17,7 +17,6 @@ header{
 .wrapper {
     max-width: 100%;
     overflow: clip;
-    background: #FFF, border-radius(52% 0% 50% 50%/0% 0% 10% 10%);
 }
 .product-card {
     padding: 0 15px;
