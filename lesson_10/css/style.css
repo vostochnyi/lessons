@@ -1,0 +1,206 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+header, footer{
+    background-color: #545454;
+    text-align: center;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+header{
+    margin-bottom: 15px;
+}
+.wrapper {
+    max-width: 100%;
+    overflow: clip;
+    background: #FFF, border-radius(52% 0% 50% 50%/0% 0% 10% 10%);
+}
+.product-card {
+    padding: 0 15px;
+    max-width: 295px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: clip;
+}
+.product-card--margin {
+    margin: 0 auto 15px auto;
+}
+.product-card__container {
+    border: 1px solid#E6E6E6;
+    overflow: clip;
+    
+}
+.product-card__image {
+    margin: 5px 5px 12px 5px;
+}
+.link-image {
+    max-width: 40px;
+    max-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+}
+.product-card__container:hover .link-image {
+    opacity: 1;
+    visibility: visible;
+}
+.product-card__container:hover .product-card__link-title{
+    color: #2C742F;
+} 
+.product-card__container:hover{
+    border: 1px solid var(--Branding-Success-Dark, #2C742F);
+    box-shadow: 0px 0px 12px 0px #20b52652;
+}
+.add-to-wishlist {
+    
+}
+.add-to-wishlist:hover .add-to-wishlist__hover-image{
+    opacity: 1;
+    visibility: visible;
+}
+
+.add-to-wishlist__main-image {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.add-to-wishlist__hover-image {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.add-to-wishlist__hover-image, .quick-view__hover-image, .add-to-cart__hover-image{
+    opacity: 0;
+    visibility: hidden;
+}
+.quick-view {
+    
+}
+.quick-view:hover .quick-view__hover-image{
+    opacity: 1;
+    visibility: visible;
+}
+.quick-view__main-image {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+.quick-view__hover-image {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+.add-to-cart {
+}
+.add-to-cart:hover .add-to-cart__hover-image {
+    opacity: 1;
+    visibility: visible;
+}
+.add-to-cart__main-image {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+.add-to-cart__hover-image {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+.product-card__text {
+    max-width: 65%;
+    margin: 0 0 12px 7px;
+    padding: 0 5px;
+}
+.product-card__link-title {
+    color: #4D4D4D;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.product-card__link-title:hover{
+    text-decoration: underline;
+}
+.product-card__price {
+    color: #1A1A1A;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.business {
+    background:url(../img/small_circle.svg) 220px 150px no-repeat, url(../img/big_circle.svg) 240px 180px no-repeat, url(../img/dots_vertival.svg)  250px 380px no-repeat, url(../img/small_circle.svg) 1200px 515px no-repeat, url(../img/big_circle.svg) 1340px 540px no-repeat, url(../img/dots_horisontal.svg) 1320px 850px no-repeat, url(../img/back.svg)  0px 20px / contain no-repeat;
+    padding-bottom: 25px;
+}
+.business--margin{
+    margin: 0 0 25px 0;
+}
+.business__container {
+    max-width: 1229px;
+    margin: 0 auto;
+}
+.business__blocks {
+}
+.business__blocks > :not(:last-child) {
+    margin: 0 0 55px 0;
+}
+.block-business {
+    padding: 0 15px;
+    font-size: 0;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    
+}
+.block-business--margin > :not(:last-child){
+    margin: 0 55px 0 0;
+}
+.block-business--margin {
+}
+
+.block-business__image {
+    border-radius: 20px;
+    max-width: 430px;
+    max-height: 548px;
+    box-shadow: 12px 15px 22px 0px #0000004d;
+}
+.block-business__info {
+    max-width: 602px;
+    display: inline-block;
+    padding: 0px 15px;
+    vertical-align: middle;
+}
+.block-business__info > :not(:last-child){
+    margin-bottom: 25px;
+}
+.block-business__title {
+    font-family: "Circular Std", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.block-business__text {
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 1.1px;
+}
+.documentation-link {
+    background-color: #F35B09;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 22px;
+    border-radius: 64px;
+    letter-spacing: 1.1px;
+    line-height: 1.5;
+}
+.documentation-link:hover{
+    background-color: #c54907;
+}
+.block-business--right {
+
+    text-align: right;
+}
+
+.block-business--right .block-business__info{
+    text-align: left;
+}
