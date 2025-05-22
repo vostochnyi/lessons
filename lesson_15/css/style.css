@@ -191,7 +191,7 @@ header{
 }
 
 @media (any-hover: none) {
-    .product-card__item:hover .link-image {
+    .link-image {
         opacity: 1;
         visibility: visible;
     }
