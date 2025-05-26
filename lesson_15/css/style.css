@@ -182,7 +182,7 @@ header{
 
 
 
-@media (any-hover: hover) {
+@media (any-hover: hover), (pointer: fine) {
     .product-card__item:hover .link-image {
         opacity: 1;
         visibility: visible;
@@ -190,7 +190,7 @@ header{
     }
 }
 
-@media (any-hover: none) {
+@media (any-hover: none), (pointer: coarse) {
     .link-image {
         opacity: 1;
         visibility: visible;
