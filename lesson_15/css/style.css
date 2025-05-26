@@ -627,7 +627,7 @@ header{
         flex: 0 1 calc(354px + 1px);
     }
     .product-card__item:hover{
-        flex: 0 1 354px;
+        flex: 0 1 355px;
     }
     .card-news__info{
         padding: 5px 14px 14px 14px;
