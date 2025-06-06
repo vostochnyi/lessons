@@ -1,0 +1,303 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: clip;
+}
+
+.footer{
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #008b8b;
+    z-index: 2;
+    padding-block: 0.6375rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5625rem;
+    margin-bottom: 1rem;
+}
+header a:hover{
+    transform: scale(1.2);
+    font-weight: 500;
+    color: #7200c4;
+    text-decoration: underline;
+    transition: all 0.2s linear 0;
+}
+
+.block-test, .vertical-test{
+    scroll-margin-top: 3rem;
+}
+
+
+.page{
+    flex: 1 1 auto;
+}
+.page--margine{
+    margin: 2.1rem 0 0 0;
+}
+
+.page__container {
+    padding: 0.9375rem;
+}
+.percent-test {
+    max-width: 1000px;
+    height: 100px;
+    padding: 5px 15px;
+    margin: 0 auto;
+    background-color: #997c58;
+}
+.percent-test__text {
+    background-color: #808080;
+    overflow: clip;
+
+    /* Від Ш.Б.Е. */
+    /* width: 20%; */
+    max-width: 80%;
+    /* min-width: 20%; */
+    /* inline-size: 20%; */
+    /* min-inline-size: 20%; */
+    /* max-inline-size: 20%; */
+    /* padding: 20%; */
+    /* padding: 20%; */
+    /* padding: 20%; */
+    padding-inline: 1%;
+    padding-block: 2%;
+	/* margin: 0 20%; */
+	/* margin-inline: 20%; */
+	/* margin-block: 20%; */
+    position: relative;
+    left: 10%;
+
+/* Від В.Б.Е. призаданій висоті батьківському ел-ту */
+/* height: 110%; */
+/* max-height: 20%; */
+/* min-height: 20%; */
+/* max-block-size: 20%; */
+/* min-block-size: 200%; */
+
+position: relative;
+	top: 22.4%;
+    bottom: 0%;
+	/* inset-block: 0%; */
+
+
+/* Від в'юпорта (вікно браузера) */
+
+	/* Від ширини */
+	/* position: fixed;
+	left: 0%;
+	right: 20%;
+	inset-inline: 0%; */
+
+	/* Від висоти */
+	/* position: fixed;
+	top: 0%;
+	bottom: 0%;
+	inset-block: 80%; */
+
+    /* Від батьківського елементу, у якого position відмінний від static */
+
+	/* Від ширини */
+	/* position: absolute;
+	left: 10%;
+	right: 30%; */
+	/* inset-inline: 0%; */
+
+	/* Від висоти */
+	/* position: absolute;
+	top: 20%;
+	bottom: 3%; */
+	/* inset-block: 20%; */
+
+	/* Від розміру шрифту за замовченням, поточного або успатковоного */
+	/* font-size: 130%; */
+	/*line-height: 120%; */
+
+	transition: transform 0.2s ease-out 0s;
+
+}
+
+/* Від розмірів самого елементу */
+
+.percent-test:hover .percent-test__text{
+	transform: translate(14.4%, 4.65rem);
+    
+}
+
+/* все відносно 16 */
+.rem-test {
+    max-width: 68.75rem; /* 1100px */
+    margin: 0 auto;
+    padding: 0.9rem;
+    font-size: 0.875rem; /* 14px */
+}
+
+/* EM відносно поточного, шрифту за замовченням або успаткованого розміру шрифту */
+.rem-test__text {
+    font-size: 1em;
+    margin-bottom: 1.1em;
+    letter-spacing: 0.18em;
+}
+.rem-test__two-text{
+    font-size: 2em;   /* 28px */
+    word-spacing: 0.5em;
+}
+
+
+/* у @media використовуєм ЕМ */
+
+@media (max-width: 26.5em){
+    /* 425/16 */
+    .rem-test__two-text{
+        font-size: 2rem;
+    }
+}
+
+/* 
+VW - відносно ширини
+VH - відносно висоти
+VMAX - більший розмір
+VMIN - меньший розмір
+SVH, LVH, DVH
+SVW, LVW, DVW
+Одиниці в'юпорту
+*/
+
+.block-test{
+    background-color: #800080;
+    /* width: 100vw;
+    height: 0.5vh; */
+    /* width: 93vmax;*/
+    height: 1vh;
+    width: calc(100vw - 1.8rem);
+    margin: 0 auto;
+}
+.block{
+    padding: 0.9375rem;
+}
+.clamp{
+    font-size: clamp(1.25rem, 5vw, 3.125rem);
+}
+
+
+:root {
+    --colorMain: #000;
+    --colorMain2:#525252;
+}
+.block {
+    color: var(--colorMain);
+    cursor: help;
+}
+
+.block__color{
+    color: var(--colorMain2);
+}
+
+.link{
+    pointer-events: none;
+    user-select: none;
+    	/* top right bottom left */
+	inset: 1.25rem 0.625rem 1.875rem 0.3125rem;
+    background-color: #faebd7;
+    margin: 0 0 0.9375rem 0;
+}
+
+
+/* Умова світла/темна тема */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme */
+
+/* Заборона виділення */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
+
+html {
+	scroll-behavior: smooth;
+}
+/*
+    Режим змішування
+    mix-blend-mode
+    https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+ */
+
+
+/*
+isolation: isolate;
+https://developer.mozilla.org/en-US/docs/Web/CSS/isolation
+*/
+
+.vertical-test{
+    display: flex;
+    justify-self: flex-end;
+    writing-mode: vertical-rl;
+    background-color: #008000;
+    margin-bottom: 0.95rem;
+
+    /* --- Логічні властивості --- */
+
+	/* width -> inline-size */
+	/* height -> block-size */
+
+    /* max-block-size: ; */
+	/* max-inline-size: 6.25rem; */
+	min-block-size: 31.25rem;
+	min-inline-size: 41.25rem;
+
+
+
+
+
+	/* padding-left -> padding-inline-start */
+	/* padding-right -> padding-inline-end */
+	/* padding-top -> padding-block-start */
+	/* padding-bottom -> padding-block-end */
+
+	/* padding: 10px 0 -> padding-block: 10px */
+	/* padding: 0 10px -> padding-inline: 10px */
+
+	/* border-left -> border-inline-start */
+	/* border-right -> border-inline-end */
+	/* border-top -> border-block-start */
+	/* border-bottom -> border-block-end */
+    padding-inline-start: 0.9375rem;
+    padding-block-start: 0.9375rem;
+
+    border-inline-start : 0.625rem solid #daa520;
+	border-inline-end : 0.625rem solid #20b5da;
+    border-block-start : 0.625rem solid #ceda20;
+	border-block-end : 0.625rem solid #da2020;
+}
+/* mirror */
+.vertical-test:hover{
+    transform: scale(-1, 1);
+}
+
+/* Сабгріди */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid */
+
+
+/* Дозволяє обрізати елементи */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path 
+	https://bennettfeely.com/clippy/
+*/
+
+.shape-test{
+    background: url(../img/1528008833490.jpeg) -300px -250px no-repeat;
+    inline-size: 31.25rem;
+    block-size: 31.25rem;
+    clip-path: polygon(10% 25%, 35% 25%, 43% 0, 55% 0, 65% 25%, 90% 25%, 100% 50%, 65% 50%, 60% 100%, 39% 100%, 35% 50%, 0 50%);
+}
+
+/* 
+Фіксовані заголовки та посилання переходу:
+https://codepen.io/chriscoyier/pen/GRJpopp 
+*/
