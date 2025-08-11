@@ -128,7 +128,7 @@ body {
 .form__label-checkbox {
 }
 .form__row:has(.form__checkbox) {
-    margin-top: 20px 0 32px 0;
+    margin: 20px 0 32px 0;
     padding-bottom: 32px;
     border-bottom: 1px solid #c5c5c5;
 }
@@ -264,3 +264,4 @@ a {
 }
 .footer__container {
 }
+
