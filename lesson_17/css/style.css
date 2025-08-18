@@ -382,7 +382,7 @@ body {
 .product:hover .quick-view:hover {
     background-color: #00B207;
     border: none;
-    svg path {
+    path {
         stroke: #fff;
     }
 }
@@ -485,7 +485,7 @@ body {
 .item-fetured__card:hover .add:hover {
     background-color: #00B207;
 
-    svg path {
+    path {
         stroke: #fff;
     }
 }
@@ -752,4 +752,5 @@ body {
     .card-item__actions {
         left: 130px;
     }
+
 }
