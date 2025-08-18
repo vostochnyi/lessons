@@ -260,14 +260,14 @@ body {
     margin-bottom: 36px;
 }
 
-.featured__subtitle {
+.fetured__subtitle {
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     color: #00B207;
 }
 
-.featured__title {
+.fetured__title {
     font-size: 36px;
     font-weight: 600;
 }
@@ -733,7 +733,7 @@ body {
     .fetured__block {
         margin-bottom: 20px;
     }
-    .featured__title {
+    .fetured__title {
         font-size: 24px;
     }
     .floral__items {
@@ -752,4 +752,5 @@ body {
     .card-item__actions {
         left: 130px;
     }
+
 }
