@@ -382,9 +382,11 @@ body {
 .product:hover .quick-view:hover {
     background-color: #00B207;
     border: none;
-    path {
-        stroke: #fff;
-    }
+}
+
+.product:hover .favorite:hover path,
+.product:hover .quick-view:hover path{
+    stroke: #fff;
 }
 
 .product__body {
@@ -484,10 +486,12 @@ body {
 .item-fetured__card:hover .quick-view:hover,
 .item-fetured__card:hover .add:hover {
     background-color: #00B207;
+}
 
-    path {
-        stroke: #fff;
-    }
+.item-fetured__card:hover .favorite:hover path,
+.item-fetured__card:hover .quick-view:hover path,
+.item-fetured__card:hover .add:hover path{
+    stroke: #fff;
 }
 
 .card-item__image {
@@ -754,3 +758,4 @@ body {
     }
 
 }
+
